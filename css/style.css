@@ -1,0 +1,190 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	color: white;
+	font-size: 30px;
+}
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+.headers{
+	background: #3d3c66;
+	margin-bottom: 1px;
+	height: 350px;
+}
+.header-a { 
+	
+	margin-bottom: 1px;
+
+}
+.inner-header-a {
+	background: #3d3c66;
+	height: 150px;
+}
+.header-1{
+	width: 25%;
+	float: left;
+
+}
+.inner-header1{
+	min-height: 250px;
+}
+.header-2{
+	width: 25%;
+	float: left;
+
+}
+.inner-header2{
+	min-height: 150px;
+}
+.header-3{
+	width: 5%;
+	float: left;
+
+}
+.inner-header3{
+	min-height: 150px;
+}
+.header-4{
+	width: 20%;
+	float: left;
+
+}
+.inner-header4{
+	min-height: 150px;
+}
+.header-5{
+	width: 25%;
+	float: left;
+
+}
+.inner-header5{
+	min-height: 150px;
+}
+.header-b { 
+	
+	margin-bottom: 1px;
+
+}
+.inner-header-b {
+	background: #3d3c66;
+	height: 100px;
+}
+.header-c { 
+	
+	margin-bottom: 10px;
+
+}
+.inner-header-c {
+	background: #3d3c66;
+	height: 50px;
+}
+.content {
+	
+	width: 100%;
+	
+
+}
+.inner-content {
+	background: #3d3c66;
+	min-height: 500px;
+	padding: 1px;
+}
+
+.content-1{
+	width: 70%;
+	float: left;
+	
+}
+.inner-content1{
+	background:#49487a;
+	min-height: 300px;
+}
+.content-2{
+	width: 70%;
+	float: left;
+	}
+.inner-content2{
+	background:#49487a;
+	min-height: 300px;
+}
+.sidebar1 {
+
+	width: 30%;
+	float: left;
+	padding-right:  10px;
+
+}
+.inner-sidebar1{
+	background: #3d3c66;
+	min-height: 200px;
+}
+.sidebar2 {
+
+	width: 30%;
+	float: left;
+	padding-right:  10px;
+
+}
+.inner-sidebar2{
+	background: #3d3c66;
+	min-height: 200px;
+}
+.sidebar3 {
+
+	width: 30%;
+	float: left;
+	padding-right:  10px;
+
+}
+.inner-sidebar3{
+	background: #3d3c66;
+	min-height: 200px;
+}
+.sidebar-a { 
+	
+	margin-bottom: 1px;
+
+}
+.inner-sidebar-a {
+	background: #3d3c66;
+	height: 200px;
+}
+.sidebar-b { 
+	
+	margin-bottom: 1px;
+
+}
+.inner-sidebar-b {
+	background: #3d3c66;
+	height: 200px;
+}
+.sidebar-c { 
+	
+	margin-bottom: 1px;
+
+}
+.inner-sidebar-c {
+	background: #3d3c66;
+	height: 200px;
+}
+.footer {
+
+	margin-top: 10px;
+
+}
+.inner-footer{
+	background: #3d3c66;
+	height: 200px;
+}
